@@ -8,6 +8,6 @@ public class Client {
 
         Director mbadirector = new Director(new MBAStudentBuilder());
         Student mbaStudent = mbadirector.createStudent();
-        System.out.println("MBA " + mbaStudent.toString());
+        System.out.println("MBA  " + mbaStudent.toString());
     }
 }
